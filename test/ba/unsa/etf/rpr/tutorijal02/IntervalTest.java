@@ -62,6 +62,7 @@ class IntervalTest {
         assertEquals("[2.2,2.5)", i3.toString());
     }
 
+
     @org.junit.jupiter.api.Test
     void equals() {
         Interval i = new Interval(1.1, 2.5, true, false);
